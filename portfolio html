@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <html lang="fr">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Portfolio
+    </title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <nav>
+        <div class="profile">
+            <h1>Rayane saghiry</h1>
+        </div>
+        <div class="barre">
+        <ul>
+            <li> À propos de moi</li>
+            <li>Veille technologique</li>
+            <li>Me contacter</li>
+            <li><a href="file:///C:/Users/Happy/Downloads/RAYANE%20SAGHIRY%20(1).pdf">Curriculum vitae</a></li>
+         </div>
+                
+        </ul>
+    </nav>
+
+    <!--presention-->
+
+    <section class="presentation">
+        <h1>Mon Portfolio</h1>
+        <header>
+            <h2>BTS SIO QU’EST-CE QUE C’EST ?</h2>
+            <p>
+    Objectifs du BTS SIO :
+    Le diplômé du BTS SIO (BTS Services Informatiques aux Organisations) est formé à la mise en place de services informatiques
+    en tant que salarié au sein des organisations (entreprises, administrations, pme, pmi, etc…) soit en tant que consultant d’une SSII 
+    (Société de Services d’Ingénierie Informatique), d’une société éditrice de logiciels ou d’une société de conseils en technologies.
+    Les services informatiques dont il aura la responsabilité concernent à la fois les solutions techniques 
+    d’infrastructures, les applications logicielles, la maintenance et l’évolution de ces solutions dans le respect des contraintes légales et stratégiques, 
+    en s’appuyant sur des normes de sécurité ou des guides de bonnes pratiques.
+            </p>
+        </header>
+    </section>
+
+
+    <!-- moi -->
+
+    <section class="moi">
+        <h1>À propos de moi</h1>
+        <img class="img-profile" src="image/id.jpeg">
+
+        <h2>Mon parcours</h2>
+        <p> Je m’appelle Rayane SAGHIRY, je suis âgée de 20 ans et je suis actuellement en 1er année de BTS SIO ( Service informatique aux organisations) au 
+            sein de l'école ESICAD à Montpellier. J'ai initialement effectué un bac STL ( science technique de laboratoire ) 
+            au sein du lycée Jean Mermoz à Montpellier.<br><br>
+             Je suis passée de la science à l'informatique car je me suis rendu compte que j'étais passionné par le réseau et la cybersécurité.
+             En ce qui concerne la poursuite de mes études,  je souhaiterais continuer dans le domaine de l'informatique. Je souhaiterais faire un master 
+             en cybersécurité notamment dans l'école la guardia à Lyon.
+            </p>
+    </section>
+
+    <!--veille technologique-->
+    <section class="veille">
+        <h1>Veille technologique</h1>
+
+        <div class="veille">
+            <h2>Qu'est ce que la veille technologique ?</h2>
+            <p>La veille technologique consiste à surveiller les évolutions techniques et les innovations dans un secteur d'activité donné. 
+                Cela comprend notamment la surveillance, la collecte, le partage et la diffusion d'information permettant d'anticiper ou de s'informer 
+                sur des changements en matière de recherche, développement, matériaux, processus, etc...</p>
+        </div>
+
+        <div class="veille">
+            <h2>Les outils utilisés pour ma veille technologique</h2>
+            <p>Pour ma veille technologique, j'utilise différents outils, tel que les réseau sociaux <strong>Twitter</strong> pour être au coeur de l'information en 
+                temps réel en activant la cloche. Le principal outil de mes recherches sont les recherche Google.
+                  Pour finir, j'utilise <strong>Google Alertes</strong>,
+                   qui permet de faire des recherches automatiques et d'envoyer les résultats par mail. Je l'ai configuré pour qu'il m'envoie un récapitulatif 
+                   toutes les semaines</p>
+        </div>
+
+        <div class="veille">
+            <h2>Mon sujet de veille technologique</h2>
+            <p>Mon sujet de veille technologique traite sur <strong>les systèmes d'exploitations</strong>.</p>
+            
+            <p>Un système d'exploitation, ou OS pour Operating System, définit un ensemble de programmes chargé d'établir une relation entre les différentes 
+                ressources matérielles, les applications et l'utilisateur. Dans un ordinateur, le système d'exploitation a plusieurs missions. Il gère, entre autres, 
+                le processeur et la mémoire vive, optimise l'exécution des applications en leur attribuant les ressources nécessaires, fournit un certain nombre 
+                d'informations sur le bon fonctionnement de l'ordinateur.</p>
+            <br>
+        </div>
+
+        <div class="vt_article">
+            <img class="vt_img vt_img_right" src="https://pic.clubic.com/v1/images/1973241/raw" alt="Raspberry Pi">
+            <div class="vt_contenu">
+                <a class="vt_titre" href="https://www.clubic.com/raspberry/actualite-417588-raspberry-pi-os-l-utilisateur-par-defaut-pi-s-efface-la-securite-s-ameliore.html" target="_blank">Raspberry Pi OS : l'utilisateur par défaut, "Pi", s'efface... la sécurité s'améliore</a>
+                <p class="vt_source">Source : Clubic<br>Date : 11/04/2022</p>
+                <p class="vt_extrait">La Raspberry Pi Foundation a dévoilé les nouveautés relatives à la dernière version de Raspberry Pi OS Bullseye, 
+                    son système d'exploitation. Elle implique désormais d'éviter l'attribution d'un nom d'utilisateur par défaut... pour plus de sécurité...</p>
+              
+            </div>
+        </div>
+
+        <div class="vt_article">
+            <img class="vt_img vt_img_left" src="https://pic.clubic.com/v1/images/1928736/raw" alt="Linux">
+            <div class="vt_contenu">
+                <a class="vt_titre" href="https://www.clubic.com/linux-os/debian/ubuntu/dossier-417288-linux-est-il-aussi-invulnerable-qu-on-le-pense.html" target="_blank">Sécurité : les systèmes Linux sont-ils aussi invulnérables qu'on le pense ?</a>
+                <p class="vt_source">Source : Clubic<br>Date : 11/04/2022</p>
+                <p class="vt_extrait">On l’a souvent entendu : si l’on veut être en sécurité sur internet, il est beaucoup mieux d’utiliser Linux plutôt que Windows
+                     ou macOS. Si cette affirmation était globalement vraie et vérifiable il y a quelques années, l’évolution de la technologie et surtout l’évolution 
+                     constante des menaces sur le web ont eu le don de modifier les faits...</p>
+                
+            </div>
+        </div>
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+   <!--formualire de contact-->
+    <div class="fond">
+   
+        <div class="container">
+        <h1>CONTACTEZ-MOI</h1>
+        <form action="">
+          <label for="fname">Nom & prénom</label>
+          <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+      
+          <label for="sujet">Objet</label>
+          <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+      
+          <label for="emailAddress">Email</label>
+          <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+      
+      
+          <label for="subject">Message</label>
+          <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+      
+          <input type="submit" value="Envoyer">
+        </form>
+      </div>
+    </div>  
+
+</body>
+</html>
