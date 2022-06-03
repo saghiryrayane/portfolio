@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap');
+
+Body{
+    font-family: 'Radio Canada', sans-serif;
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	position: sticky;
+	top: 0;
+  padding: 0 1.5%;
+  margin: 0%;
+}
+nav .profile {
+	display: flex;
+	align-items: center;
+}
+
+nav .profile h1 {
+	margin-left: 10px;
+	font-size: 15px;
+}
+nav ul {
+	display: flex;
+	list-style-type: none;
+}
+nav ul li {
+	margin-left: 20px;
+	cursor: pointer;
+	border-bottom: 1px solid rgb(255, 255, 255);
+}
+nav ul li:hover {
+	border-bottom-color: #000;
+}
+
+
+.presentation {
+    margin: 4%;
+}
+
+.presentation header{
+    margin-top: 5%;
+    max-width: 80%;
+}
+
+.presentation h1 {
+    text-align: center;
+    margin: 0%;
+    text-transform: uppercase;
+
+}
+
+.presentation header h2 {
+    margin: 0%;
+    text-transform: uppercase;
+    font-size: 6vw;
+}
+
+.presentation header p {
+	line-height: 30px;
+	color: #000000;
+}
+
+/*moi*/
+
+.moi {
+   display: flex;
+   background-color: rgb(0, 0, 0) ;
+   height: 700px;
+   width: 1500px;
+   margin: 0%;
+}
+
+.img-profile{
+  width: 300px;
+  height: 350px;
+  float: left;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 150px;
+}
+
+
+
+.moi h1{
+  color: rgb(221, 221, 221);
+  font-size: 230%;
+  text-decoration: underline;
+  text-align: center;
+  margin-left: 650px;
+  margin-right: 0px;
+}
+
+
+.moi h2 {
+ color: rgb(221, 221, 221);
+ position: relative;
+ margin-top: 140px;
+font-size: 200%;
+}
+
+.moi p {
+  color: white;
+  position:absolute;
+  padding-top: 210px;
+  margin-left: 720px;
+  font-size: 25px;
+  margin-right: 80px;
+
+}
+
+/* veille */
+
+.veille h1 {
+  text-align: center;
+}
+
+.veille h2 {
+  text-align: center;
+}
+.veille p {
+  text-align: center;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.vt_article {
+  overflow: hidden;
+  margin-bottom: 4em;
+}
+.vt_img {
+  max-width: 40%;
+}
+.vt_img_left {
+  margin-right: 1em;
+  float: left;
+}
+.vt_img_right {
+  margin-left: 1em;
+  float: right;
+}
+
+.vt_titre {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 1.25em;
+  text-decoration: none;
+}
+.vt_titre:hover, .vt_titre:focus {
+  text-decoration: underline;
+}
+.vt_source {
+  line-height: 1.2;
+  margin-top: 0;
+  color: rgba(0, 0, 0, 0.667);
+  overflow: hidden;
+}
+.vt_extrait {
+  font-size: 0.9em;
+  line-height: 1.2;
+  margin-top: 0;
+}
+.rss_icon {
+  float: right;
+  font-size: 2em;
+}
+
+
+
+/* me contacter */
+
+.container {font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+  }
+  
+  input[type=text], textarea, input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    resize: vertical;
+  }
+
+  label{margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+    color: white;
+  }
+    
+  
+  input[type=submit] {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #000000;
+  }
+  
+  .container {
+    box-sizing : border-box;
+    border-radius:5px;
+    background-color:#000000;
+    padding:20px;
+    width: 100%;
+    max-width: 440px;
+    margin:0 auto;
+  }
+ .container h1 {
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+  }
+.fond {
+  display: flex;
+  background-color: rgb(0, 0, 0) ;
+  height: 700px;
+  width: 1500px;
+  margin: 0%;
+}
